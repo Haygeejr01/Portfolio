@@ -6,62 +6,66 @@
     <title>Quantum__dev.portfolio</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./portfolio.css" />
   </head>
 
   <body>
-    <section>
+    <nav id="navbar">
+      <div class="landing-page" id="landing-page">
+        <div class="logo-container">
+          <a href="#landing-page">Quantum__dev</a>
+        </div>
+
+        <div class="hamburger" id="hamburger-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-container">
+          <ul class="bar-list" id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about-me" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
       <header>
-        <nav>
-          <div class="landing-page" id="landing-page">
-            <div class="logo-container">
-              <a href="#landing-page">Quantum__dev</a>
-            </div>
-
-            <div class="hamburger" id="hamburger-btn">
-              <i class="fa-solid fa-bars"></i>
-            </div>
-
-            <div class="menu-container">
-              <ul class="bar-list" id="nav-menu">
-                <li><a href="#landing-page">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="port-text">
-            <h1>Welcome</h1>
-            <h2>I'm <span class="auto-type"></span></h2>
-            <p>Exploring, coding, and growing every day</p>
-          </div>
-        </nav>
+        <div class="port-text">
+          <h1>Welcome</h1>
+          <h2>I'm <span class="auto-type"></span></h2>
+          <p>Exploring, coding, and growing every day</p>
+        </div>
       </header>
     </section>
 
     <section class="about-me" id="about-me">
-      <h1>About Me</h1>
+      <div class="section-title-container">
+        <h1 class="bg-text">ABOUT ME</h1>
+        <h2 class="fg-text">Know Me More</h2>
+      </div>
+
       <div class="hero-container">
         <div class="herosect-left">
           <h2>I'm <span>Adebayo Favor</span>, an AI/ML Enthusiast</h2>
           <p>
-            Hi, I’m Favor Adebayo, but online I go by QuantumDev — a Python
+            Hi, I’m Favor Adebayo, but online I go by Quantum__Dev — a Python
             learner and aspiring Machine Learning Engineer passionate about
             exploring how code and intelligence come together. I'm currently
             building my foundation in Python programming, AI, and machine
@@ -78,7 +82,6 @@
           </p>
         </div>
         <div class="herosect-right">
-          <p></p>
           <div class="bottom">
             <p>Name: Adebayo Favor</p>
           </div>
@@ -99,104 +102,81 @@
     </section>
 
     <section class="services" id="services">
-      <h1>What I Offer</h1>
+      <div class="section-title-container">
+        <h1 class="bg-text">SERVICES</h1>
+        <h2 class="fg-text">What I Offer</h2>
+      </div>
+
       <div class="serv-con">
-        <div class="left-flex-wrapper">
-          <div class="left-serv">
-            <h2><i class="fa-solid fa-desktop"></i> Web design</h2>
-            <p>
-              I design clean, responsive, user-friendly websites using HTML and
-              CSS. <br />
-              I focus on creating layouts that are visually appealing, easy to
-              navigate, <br />
-              and accessible across different devices. <br />
-              I'm also improving my ability to translate ideas into <br />
-              real functional pages that represent brands professionally.
-            </p>
-          </div>
-          <div class="left-serv">
-            <h2><i class="fa-brands fa-python"></i> Python Programming</h2>
-            <p>
-              I use Python to write scripts, automate tasks, analyze data, and
-              build small backend applications. <br />
-              My experience includes working with libraries like Pandas, NumPy,
-              and basic APIs. <br />
-              I’m growing into using Python for machine learning and building
-              smarter systems.
-            </p>
-          </div>
-          <div class="left-serv">
-            <h2>
-              <i class="fa-solid fa-magnifying-glass-chart"></i> Data Science &
-              Analytics
-            </h2>
-            <p>
-              I work with datasets to clean, organize, and prepare them for
-              insights or machine learning models. <br />
-              I’m familiar with handling missing data, feature extraction, and
-              transforming raw information <br />
-              into a usable format. This forms the foundation of my journey into
-              data science and ML engineering.
-            </p>
-          </div>
+        <div class="service-box">
+          <h2><i class="fa-solid fa-desktop"></i> Web design</h2>
+          <p>
+            I design clean, responsive, user-friendly websites using HTML and
+            CSS. I focus on creating layouts that are visually appealing, easy
+            to navigate, and accessible across different devices.
+          </p>
+        </div>
+        <div class="service-box">
+          <h2><i class="fa-brands fa-python"></i> Python Programming</h2>
+          <p>
+            I use Python to write scripts, automate tasks, analyze data, and
+            build small backend applications. My experience includes working
+            with libraries like Pandas and NumPy.
+          </p>
+        </div>
+        <div class="service-box">
+          <h2>
+            <i class="fa-solid fa-magnifying-glass-chart"></i> Data Science &
+            Analytics
+          </h2>
+          <p>
+            I work with datasets to clean, organize, and prepare them for
+            insights or machine learning models. I’m familiar with handling
+            missing data and feature extraction.
+          </p>
         </div>
 
-        <div class="right-flex-wrapper">
-          <div class="right-serv">
-            <h2>
-              <span class="material-symbols-outlined">model_training</span>
-              Machine Learning (In Progress)
-            </h2>
-            <p>
-              I’m currently learning how to build machine learning models using
-              tools like Scikit-Learn. <br />
-              This includes supervised and unsupervised learning, model
-              evaluation, <br />
-              and understanding how algorithms learn from data. <br />
-              My goal is to develop real-world predictive systems that solve
-              everyday problems.
-            </p>
-          </div>
+        <div class="service-box">
+          <h2>
+            <span class="material-symbols-outlined">model_training</span>
+            Machine Learning
+          </h2>
+          <p>
+            I’m currently learning how to build machine learning models using
+            tools like Scikit-Learn. This includes supervised and unsupervised
+            learning.
+          </p>
+        </div>
 
-          <div class="right-serv">
-            <h2>
-              <span class="material-symbols-outlined">neurology</span>
-              Deep Learning & Neural Networks
-            </h2>
-            <p>
-              I am actively developing my skills with neural networks using
-              PyTorch and TensorFlow. <br />
-              This includes CNNs for images, RNNs for sequences, and
-              foundational <br />
-              understanding of modern AI architectures. <br />
-              As I progress, I’m building hands-on projects that apply deep
-              <br />
-              learning to vision and language tasks.
-            </p>
-          </div>
+        <div class="service-box">
+          <h2>
+            <span class="material-symbols-outlined">neurology</span>
+            Deep Learning
+          </h2>
+          <p>
+            I am actively developing my skills with neural networks using
+            PyTorch and TensorFlow. This includes CNNs for images and RNNs.
+          </p>
+        </div>
 
-          <div class="right-serv">
-            <h2>
-              <span class="material-symbols-outlined">smart_toy</span>
-              AI Engineering & Automation
-            </h2>
-            <p>
-              I’m working toward becoming an AI Engineer capable of building,
-              deploying, <br />
-              and maintaining intelligent systems. My focus areas include model
-              deployment, <br />
-              API integration, cloud architecture, LLMs, and automation
-              workflows. <br />
-              This path combines machine learning, software engineering, and
-              problem-solving for me to create real-world AI solutions.
-            </p>
-          </div>
+        <div class="service-box">
+          <h2>
+            <span class="material-symbols-outlined">smart_toy</span>
+            AI Engineering
+          </h2>
+          <p>
+            I’m working toward becoming an AI Engineer capable of building,
+            deploying, and maintaining intelligent systems.
+          </p>
         </div>
       </div>
     </section>
 
     <section class="resume" id="resume">
-      <h1>Resume</h1>
+      <div class="section-title-container">
+        <h1 class="bg-text">SUMMARY</h1>
+        <h2 class="fg-text">Resume</h2>
+      </div>
 
       <div class="resume-flex">
         <div class="resume-left">
@@ -261,10 +241,13 @@
 
     <section class="skills-section" id="skills">
       <div class="container">
-        <div class="section-header">
-          <h2>My Skills</h2>
-          <p class="subtitle">My Roadmap to Machine Learning Mastery</p>
+        <div class="section-title-container">
+          <h1 class="bg-text">SKILLS</h1>
+          <h2 class="fg-text">My Skills</h2>
         </div>
+        <p class="subtitle" style="margin-top: -50px">
+          My Roadmap to Machine Learning Mastery
+        </p>
 
         <div class="skills-wrapper">
           <div class="skills-column">
@@ -273,17 +256,17 @@
                 <h4>Python Programming</h4>
                 <span>65%</span>
               </div>
-              <div class="progress-line" data-percent="65%">
+              <div class="progress-line">
                 <span style="width: 65%"></span>
               </div>
             </div>
 
             <div class="skill-box">
               <div class="skill-info">
-                <h4>Data Analysis (Pandas/NumPy)</h4>
+                <h4>Data Analysis</h4>
                 <span>10%</span>
               </div>
-              <div class="progress-line" data-percent="10%">
+              <div class="progress-line">
                 <span style="width: 10%"></span>
               </div>
             </div>
@@ -293,7 +276,7 @@
                 <h4>Math & Statistics</h4>
                 <span>0%</span>
               </div>
-              <div class="progress-line" data-percent="0%">
+              <div class="progress-line">
                 <span style="width: 0%"></span>
               </div>
             </div>
@@ -302,20 +285,20 @@
           <div class="skills-column">
             <div class="skill-box">
               <div class="skill-info">
-                <h4>ML Algorithms (Scikit-Learn)</h4>
+                <h4>ML Algorithms</h4>
                 <span>0%</span>
               </div>
-              <div class="progress-line" data-percent="0%">
+              <div class="progress-line">
                 <span style="width: 0%"></span>
               </div>
             </div>
 
             <div class="skill-box">
               <div class="skill-info">
-                <h4>Deep Learning (PyTorch)</h4>
+                <h4>Deep Learning</h4>
                 <span>0%</span>
               </div>
-              <div class="progress-line" data-percent="0%">
+              <div class="progress-line">
                 <span style="width: 0%"></span>
               </div>
             </div>
@@ -325,7 +308,7 @@
                 <h4>MLOps & Deployment</h4>
                 <span>0%</span>
               </div>
-              <div class="progress-line" data-percent="0%">
+              <div class="progress-line">
                 <span style="width: 0%"></span>
               </div>
             </div>
@@ -342,9 +325,9 @@
 
     <section class="portfolio" id="portfolio">
       <div class="container">
-        <div class="section-header">
-          <h2>My Portfolio</h2>
-          <p class="subtitle">Recent Projects I've Worked On</p>
+        <div class="section-title-container">
+          <h1 class="bg-text">PORTFOLIO</h1>
+          <h2 class="fg-text">My Work</h2>
         </div>
 
         <div class="portfolio-grid">
@@ -394,7 +377,11 @@
     </section>
 
     <section class="contact" id="contact">
-      <h1>Get in Touch</h1>
+      <div class="section-title-container">
+        <h1 class="bg-text">CONTACT</h1>
+        <h2 class="fg-text">Get in Touch</h2>
+      </div>
+
       <div class="contact-me">
         <div class="contact-text">
           <div class="contact-add">
@@ -440,45 +427,14 @@
         <div class="contact-form">
           <h2>SEND US A NOTE</h2>
           <form action="">
-            <input
-              type="text"
-              placeholder="    Name"
-              required
-              style="
-                width: 350px;
-                height: 45px;
-                background-color: #232a31;
-                color: gray;
-                border: none;
-                border-radius: 5px;
-              "
-            />
+            <input type="text" placeholder="    Name" required />
 
-            <input
-              type="text"
-              placeholder="   Email"
-              required
-              style="
-                width: 350px;
-                height: 45px;
-                background-color: #232a31;
-                color: gray;
-                border: none;
-                border-radius: 5px;
-              "
-            />
+            <input type="text" placeholder="    Email" required />
             <br /><br />
             <input
               type="text"
-              placeholder="   Tell me more about your needs"
-              style="
-                width: 700px;
-                height: 200px;
-                background-color: #232a31;
-                color: gray;
-                border: none;
-                border-radius: 5px;
-              "
+              placeholder="    Tell me more about your needs"
+              class="message-box"
             />
             <br /><br />
             <button type="button"><a href="">Send Message</a></button>
@@ -500,27 +456,12 @@
         </div>
       </div>
     </footer>
-    <a href="#" class="back-to-top">
+    <a href="#home" class="back-to-top">
       <i class="fa-solid fa-arrow-up"></i>
     </a>
-    <script>
-      // Get the button and the menu
-      const hamburger = document.getElementById("hamburger-btn");
-      const navMenu = document.getElementById("nav-menu");
 
-      // When hamburger is clicked, toggle the 'active' class
-      hamburger.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
-      });
-
-      // Optional: Close menu when a link is clicked
-      document.querySelectorAll(".bar-list li a").forEach((link) => {
-        link.addEventListener("click", () => {
-          navMenu.classList.remove("active");
-        });
-      });
-    </script>
     <script>
+      // 1. Typing Effect
       var typed = new Typed(".auto-type", {
         strings: [
           "Favor Adebayo",
@@ -528,10 +469,58 @@
           "an AI Enthusiast",
           "a Data Scientist",
         ],
-        typeSpeed: 100, // How fast it types (lower is faster)
-        backSpeed: 60, // How fast it deletes
-        loop: true, // Make it repeat forever
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
       });
+
+      // 2. Hamburger Menu Logic
+      const hamburger = document.getElementById("hamburger-btn");
+      const navMenu = document.getElementById("nav-menu");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu when a link is clicked
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+        });
+      });
+
+      // 3. Scroll Logic (Sticky Nav + Active Link Highlighter)
+      const navbar = document.getElementById("navbar");
+      const sections = document.querySelectorAll("section");
+
+      window.onscroll = () => {
+        // Sticky Navbar Effect
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+
+        // Active Section Highlighter (The "Green Line" Logic)
+        let current = "";
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          // 150px offset helps trigger the highlight slightly before the section hits top
+          if (scrollY >= sectionTop - 150) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((li) => {
+          li.classList.remove("active"); // Remove green line from all
+          if (li.getAttribute("href").includes(current)) {
+            li.classList.add("active"); // Add green line to current
+          }
+        });
+      };
     </script>
   </body>
 </html>
