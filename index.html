@@ -1,518 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quantum__dev.portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
 
-  <body>
-    <nav id="navbar">
-      <div class="landing-page" id="landing-page">
-        <div class="logo-container">
-          <a href="#landing-page">Quantum__dev</a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum__dev.portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-        <div class="hamburger" id="hamburger-btn">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <div class="menu-container">
-          <ul class="bar-list" id="nav-menu">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#about-me" class="nav-link">About</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
-            <li><a href="#resume" class="nav-link">Resume</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <section id="home">
-      <header>
-        <div class="port-text">
-          <h1>Welcome</h1>
-          <h2>I'm <span class="auto-type"></span></h2>
-          <p>Exploring, coding, and growing every day</p>
-        </div>
-      </header>
-    </section>
-
-    <section class="about-me" id="about-me">
-      <div class="section-title-container">
-        <h1 class="bg-text">ABOUT ME</h1>
-        <h2 class="fg-text">Know Me More</h2>
+<body>
+  <nav id="navbar">
+    <div class="landing-page" id="landing-page">
+      <div class="logo-container">
+        <a href="#landing-page">Quantum__dev</a>
       </div>
 
-      <div class="hero-container">
-        <div class="herosect-left">
-          <h2>I'm <span>Adebayo Favor</span>, an AI/ML Enthusiast</h2>
-          <p>
-            I am an emerging AI/ML Engineer and Open Source Contributor based in
-            Ibadan. I bridge the gap between Data Collection (Web Scraping) and
-            Data Intelligence (Machine Learning). Currently, I am contributing to
-            the core Scrapy framework while building robust predictive models and
-            backend logic with Python. My goal is to engineer intelligent systems
-            that solve real-world problems. This is my space — documenting the
-            code, the growth, and the future I’m building.
-          </p>
-        </div>
-        <div class="herosect-right">
-          <div class="bottom">
-            <p>Name: Adebayo Favor</p>
-          </div>
-          <div class="bottom">
-            <p>Email: simbamae7@gmail.com</p>
-          </div>
-          <div class="bottom">
-            <p>Age: 21</p>
-          </div>
-          <div class="bottom">
-            <p>From: Ibadan, Nigeria</p>
-          </div>
-          <div class="btn-down">
-            <a href="#" class="">Download CV</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="services" id="services">
-      <div class="section-title-container">
-        <h1 class="bg-text">SERVICES</h1>
-        <h2 class="fg-text">What I Offer</h2>
+      <div class="hamburger" id="hamburger-btn">
+        <i class="fa-solid fa-bars"></i>
       </div>
 
-      <div class="serv-con">
-        <div class="service-box">
-          <h2><i class="fa-solid fa-desktop"></i> Web design</h2>
-          <p>
-            I design clean, responsive, user-friendly websites using HTML and
-            CSS. I focus on creating layouts that are visually appealing, easy
-            to navigate, and accessible across different devices.
-          </p>
-        </div>
-        <div class="service-box">
-          <h2><i class="fa-brands fa-python"></i> Python Programming</h2>
-          <p>
-            I use Python to write scripts, automate tasks, analyze data, and
-            build small backend applications. My experience includes working
-            with libraries like Pandas, NumPy, and Scrapy.
-          </p>
-        </div>
-        <div class="service-box">
-          <h2>
-            <i class="fa-solid fa-magnifying-glass-chart"></i> Data Science &
-            Analytics
-          </h2>
-          <p>
-            I work with datasets to clean, organize, and prepare them for
-            insights or machine learning models. I’m familiar with handling
-            missing data and feature extraction.
-          </p>
-        </div>
-
-        <div class="service-box">
-          <h2>
-            <span class="material-symbols-outlined">model_training</span>
-            Machine Learning
-          </h2>
-          <p>
-            I’m currently building machine learning models using tools like
-            Scikit-Learn. This includes supervised and unsupervised learning
-            techniques.
-          </p>
-        </div>
-
-        <div class="service-box">
-          <h2>
-            <span class="material-symbols-outlined">neurology</span>
-            Deep Learning
-          </h2>
-          <p>
-            I am actively developing my skills with neural networks using
-            PyTorch and TensorFlow. This includes CNNs for images and RNNs.
-          </p>
-        </div>
-
-        <div class="service-box">
-          <h2>
-            <span class="material-symbols-outlined">smart_toy</span>
-            AI Engineering
-          </h2>
-          <p>
-            I’m working toward becoming an AI Engineer capable of building,
-            deploying, and maintaining intelligent systems.
-          </p>
-        </div>
+      <div class="menu-container">
+        <ul class="bar-list" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about-me" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </nav>
 
-    <section class="resume" id="resume">
-      <div class="section-title-container">
-        <h1 class="bg-text">SUMMARY</h1>
-        <h2 class="fg-text">Resume</h2>
+  <section id="home">
+    <header>
+      <div class="port-text">
+        <h1>Welcome</h1>
+        <h2>I'm <span class="auto-type"></span></h2>
+        <p>Exploring, coding, and growing every day</p>
       </div>
+    </header>
+  </section>
 
-      <div class="resume-flex">
-        <div class="resume-left">
-          <h2>My Education</h2>
+  <section class="about-me" id="about-me">
+    <div class="section-title-container">
+      <h1 class="bg-text">ABOUT ME</h1>
+      <h2 class="fg-text">Know Me More</h2>
+    </div>
 
-          <div class="resume-box">
-            <h3 class="year-badge">2015-2021</h3>
-            <h4>
-              <span class="material-symbols-outlined">school</span> Secondary
-              School Certificate
-            </h4>
-            <span class="school-name">SSCE</span>
-            <p>
-              Completed secondary education with a strong focus on science and
-              mathematics. Developed foundational analytical and problem-solving
-              skills essential for engineering.
-            </p>
-          </div>
-
-          <div class="resume-box">
-            <h3 class="year-badge">2025-present</h3>
-            <h4>
-              <span class="material-symbols-outlined">school</span> AI &
-              Software Engineering
-            </h4>
-            <span class="school-name">SQI College of ICT</span>
-            <p>
-              Intensive training in Artificial Intelligence and Machine Learning.
-              Focusing on Python, Data Science, Algorithm design, and System
-              Architecture.
-            </p>
-          </div>
-        </div>
-
-        <div class="resume-right">
-          <h2>My Experience</h2>
-
-          <div class="resume-box">
-            <h3 class="year-badge">2025-present</h3>
-            <h4>
-              <span class="material-symbols-outlined">code</span> Web Design
-            </h4>
-            <span class="school-name">HTML & CSS</span>
-            <p>
-              Built responsive, user-friendly websites using HTML5 and CSS3.
-              Focused on mobile-first design, clean layouts, and accessibility
-              standards.
-            </p>
-          </div>
-
-          <div class="resume-box">
-            <h3 class="year-badge">2025-present</h3>
-            <h4>
-              <span class="material-symbols-outlined">code</span> Python
-              Programming
-            </h4>
-            <span class="school-name">Personal Projects & Open Source</span>
-            <p>
-              Developed automation scripts and backend logic for real-world
-              applications. Contributed to documentation for the Scrapy open-source
-              project.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="skills-section" id="skills">
-      <div class="container">
-        <div class="section-title-container">
-          <h1 class="bg-text">SKILLS</h1>
-          <h2 class="fg-text">My Skills</h2>
-        </div>
-        <p class="subtitle" style="margin-top: -50px">
-          My Roadmap to Machine Learning Mastery
+    <div class="hero-container">
+      <div class="herosect-left">
+        <h2>I'm <span>Adebayo Favor</span>, an AI/ML Enthusiast</h2>
+        <p>
+          I am an emerging AI/ML Engineer and Open Source Contributor based in
+          Ibadan. I bridge the gap between Data Collection (Web Scraping) and
+          Data Intelligence (Machine Learning). Currently, I am contributing to
+          the core Scrapy framework while building robust predictive models and
+          backend logic with Python. My goal is to engineer intelligent systems
+          that solve real-world problems. This is my space — documenting the
+          code, the growth, and the future I’m building.
         </p>
-
-        <div class="skills-wrapper">
-          <div class="skills-column">
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>Python Programming</h4>
-                <span>65%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 65%"></span>
-              </div>
-            </div>
-
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>Data Analysis</h4>
-                <span>35%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 35%"></span>
-              </div>
-            </div>
-
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>Math & Statistics</h4>
-                <span>20%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 20%"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills-column">
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>ML Algorithms</h4>
-                <span>15%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 15%"></span>
-              </div>
-            </div>
-
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>Deep Learning</h4>
-                <span>10%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 10%"></span>
-              </div>
-            </div>
-
-            <div class="skill-box">
-              <div class="skill-info">
-                <h4>MLOps & Deployment</h4>
-                <span>10%</span>
-              </div>
-              <div class="progress-line">
-                <span style="width: 10%"></span>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="herosect-right">
+        <div class="bottom">
+          <p>Name: Adebayo Favor</p>
         </div>
-
-        <div class="btn-container">
-          <a href="#" class="btn-download"
-            >Download CV <i class="fa-solid fa-download"></i
-          ></a>
+        <div class="bottom">
+          <p>Email: simbamae7@gmail.com</p>
+        </div>
+        <div class="bottom">
+          <p>Age: 21</p>
+        </div>
+        <div class="bottom">
+          <p>From: Ibadan, Nigeria</p>
+        </div>
+        <div class="btn-down">
+          <a href="#" class="">Download CV</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="section-title-container">
-          <h1 class="bg-text">PORTFOLIO</h1>
-          <h2 class="fg-text">My Work</h2>
-        </div>
+  <section class="services" id="services">
+    <div class="section-title-container">
+      <h1 class="bg-text">SERVICES</h1>
+      <h2 class="fg-text">What I Offer</h2>
+    </div>
 
-        <div class="portfolio-grid">
-          <div class="portfolio-card">
-            <div class="card-image">
-              <img src="./images/Scrapy-project.jpeg" alt="Scrapy Project" />
-            </div>
-            <div class="card-content">
-              <h3>Open Source (Scrapy)</h3>
-              <p>
-                Contributor to Scrapy (25k+ stars). Optimized technical documentation 
-                for the JOBDIR persistence engine and internal state management.
-              </p>
-              <a href="https://github.com/scrapy/scrapy/pull/7226" class="btn-small" target="_blank">View Contribution</a>
-            </div>
-          </div>
-
-          <div class="portfolio-card">
-            <div class="card-image">
-              <img src="./images/jamb-project.png" alt="JAMB Portal" />
-            </div>
-            <div class="card-content">
-              <h3>JAMB CBT Portal</h3>
-              <p>
-                A full-featured CBT system built with Python and MySQL. Features
-                student registration, randomized questions, and result processing.
-              </p>
-              <a href="https://github.com/Haygeejr01/Jamb_Reg-portal-Examination" class="btn-small" target="_blank">View Code</a>
-            </div>
-          </div>
-
-          <div class="portfolio-card">
-            <div class="card-image">
-              <img src="./images/bank-project.png" alt="QuantBank App" />
-            </div>
-            <div class="card-content">
-              <h3>QuantBank App</h3>
-              <p>
-                A secure banking simulation built with Python. Handles multi-user
-                accounts, transaction logic, and secure database management.
-              </p>
-              <a href="https://github.com/Haygeejr01/QuantBank" class="btn-small" target="_blank">View Code</a>
-            </div>
-          </div>
-        </div>
+    <div class="serv-con">
+      <div class="service-box">
+        <h2><i class="fa-solid fa-desktop"></i> Web design</h2>
+        <p>
+          I design clean, responsive, user-friendly websites using HTML and
+          CSS. I focus on creating layouts that are visually appealing, easy
+          to navigate, and accessible across different devices.
+        </p>
       </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="section-title-container">
-        <h1 class="bg-text">CONTACT</h1>
-        <h2 class="fg-text">Get in Touch</h2>
+      <div class="service-box">
+        <h2><i class="fa-brands fa-python"></i> Python Programming</h2>
+        <p>
+          I use Python to write scripts, automate tasks, analyze data, and
+          build small backend applications. My experience includes working
+          with libraries like Pandas, NumPy, and Scrapy.
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>
+          <i class="fa-solid fa-magnifying-glass-chart"></i> Data Science &
+          Analytics
+        </h2>
+        <p>
+          I work with datasets to clean, organize, and prepare them for
+          insights or machine learning models. I’m familiar with handling
+          missing data and feature extraction.
+        </p>
       </div>
 
-      <div class="contact-me">
-        <div class="contact-text">
-          <div class="contact-add">
-            <h2>ADDRESS</h2>
-            <h3>
-              Ibadan, <br />
-              Oyo State, <br />
-              Nigeria
-            </h3>
-            <br />
-            <p><i class="fa-brands fa-whatsapp"></i> (+234) 9065183017</p>
-            <br />
-            <p><i class="fa-solid fa-phone"></i> (+234) 7034752332</p>
-            <br />
-            <p>
-              <i class="fa-solid fa-envelope"></i>
-              simbamae7@gmail.com
-            </p>
-            <br />
-            <div class="social-links">
-              <h3>FOLLOW ME</h3>
-              <a href="https://github.com/Haygeejr01" target="_blank">
-                <i class="fa-brands fa-github"></i>
-              </a>
-
-              <a href="https://linkedin.com/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-
-              <a href="https://x.com/Quantum__dev" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-
-              <a href="https://instagram.com/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="mailto:simbamae7@gmail.com" target="_blank">
-                <i class="fa-brands fa-google"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="contact-form">
-          <h2>SEND US A NOTE</h2>
-          <form action="">
-            <input type="text" placeholder="    Name" required />
-
-            <input type="text" placeholder="    Email" required />
-            <br /><br />
-            <input
-              type="text"
-              placeholder="    Tell me more about your needs"
-              class="message-box"
-            />
-            <br /><br />
-            <button type="button"><a href="">Send Message</a></button>
-          </form>
-        </div>
+      <div class="service-box">
+        <h2>
+          <span class="material-symbols-outlined">model_training</span>
+          Machine Learning
+        </h2>
+        <p>
+          I’m currently building machine learning models using tools like
+          Scikit-Learn. This includes supervised and unsupervised learning
+          techniques.
+        </p>
       </div>
-    </section>
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="copyright">
+
+      <div class="service-box">
+        <h2>
+          <span class="material-symbols-outlined">neurology</span>
+          Deep Learning
+        </h2>
+        <p>
+          I am actively developing my skills with neural networks using
+          PyTorch and TensorFlow. This includes CNNs for images and RNNs.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <h2>
+          <span class="material-symbols-outlined">smart_toy</span>
+          AI Engineering
+        </h2>
+        <p>
+          I’m working toward becoming an AI Engineer capable of building,
+          deploying, and maintaining intelligent systems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume" id="resume">
+    <div class="section-title-container">
+      <h1 class="bg-text">SUMMARY</h1>
+      <h2 class="fg-text">Resume</h2>
+    </div>
+
+    <div class="resume-flex">
+      <div class="resume-left">
+        <h2>My Education</h2>
+
+        <div class="resume-box">
+          <h3 class="year-badge">2015-2021</h3>
+          <h4>
+            <span class="material-symbols-outlined">school</span> Secondary
+            School Certificate
+          </h4>
+          <span class="school-name">SSCE</span>
           <p>
-            Copyright &copy; 2025 <a href="">Quantum__dev</a>. All Rights
-            Reserved.
+            Completed secondary education with a strong focus on science and
+            mathematics. Developed foundational analytical and problem-solving
+            skills essential for engineering.
           </p>
         </div>
-        <div class="terms">
-          <a href="#">Terms & Conditions</a>
-          <a href="#">| Disclaimer</a>
+
+        <div class="resume-box">
+          <h3 class="year-badge">2025-present</h3>
+          <h4>
+            <span class="material-symbols-outlined">school</span> AI &
+            Software Engineering
+          </h4>
+          <span class="school-name">SQI College of ICT</span>
+          <p>
+            Intensive training in Artificial Intelligence and Machine Learning.
+            Focusing on Python, Data Science, Algorithm design, and System
+            Architecture.
+          </p>
         </div>
       </div>
-    </footer>
-    <a href="#home" class="back-to-top">
-      <i class="fa-solid fa-arrow-up"></i>
-    </a>
 
-    <script>
-      var typed = new Typed(".auto-type", {
-        strings: [
-          "Favor Adebayo",
-          "a Python Developer",
-          "an Open Source Contributor",
-          "an AI Enthusiast",
-          "a Data Scientist",
-        ],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true,
+      <div class="resume-right">
+        <h2>My Experience</h2>
+
+        <div class="resume-box">
+          <h3 class="year-badge">2025-present</h3>
+          <h4>
+            <span class="material-symbols-outlined">code</span> Web Design
+          </h4>
+          <span class="school-name">HTML & CSS</span>
+          <p>
+            Built responsive, user-friendly websites using HTML5 and CSS3.
+            Focused on mobile-first design, clean layouts, and accessibility
+            standards.
+          </p>
+        </div>
+
+        <div class="resume-box">
+          <h3 class="year-badge">2025-present</h3>
+          <h4>
+            <span class="material-symbols-outlined">code</span> Python
+            Programming
+          </h4>
+          <span class="school-name">Personal Projects & Open Source</span>
+          <p>
+            Developed automation scripts and backend logic for real-world
+            applications. Contributed to documentation for the Scrapy open-source
+            project.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-title-container">
+        <h1 class="bg-text">SKILLS</h1>
+        <h2 class="fg-text">My Skills</h2>
+      </div>
+      <p class="subtitle" style="margin-top: -50px">
+        My Roadmap to Machine Learning Mastery
+      </p>
+
+      <div class="skills-wrapper">
+        <div class="skills-column">
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>Python Programming</h4>
+              <span>65%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 65%"></span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>Data Analysis</h4>
+              <span>35%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 35%"></span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>Math & Statistics</h4>
+              <span>20%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 20%"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>ML Algorithms</h4>
+              <span>15%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 15%"></span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>Deep Learning</h4>
+              <span>10%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 10%"></span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <h4>MLOps & Deployment</h4>
+              <span>10%</span>
+            </div>
+            <div class="progress-line">
+              <span style="width: 10%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <a href="#" class="btn-download">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-title-container">
+        <h1 class="bg-text">PORTFOLIO</h1>
+        <h2 class="fg-text">My Work</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="card-image"
+            style="background: #fff; height: 180px; display: flex; align-items: center; justify-content: center;">
+
+            <img src="./images/mediguard-logo.png" alt="MediGuard AI Logo"
+              style="width: 80% !important; height: auto !important; opacity: 1 !important; object-fit: contain !important;" />
+
+          </div>
+          <div class="card-content">
+            <h3>MediGuard AI</h3>
+            <p>
+              A full-stack medical prediction system using Django and Scikit-Learn.
+              Features live Machine Learning inference for Heart Disease and Obesity risk.
+            </p>
+            <a href="https://health-prediction-app.vercel.app/" class="btn-small" target="_blank">View Live App</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="card-image">
+            <img src="./images/Scrapy-project.jpeg" alt="Scrapy Project" />
+          </div>
+          <div class="card-content">
+            <h3>Open Source (Scrapy)</h3>
+            <p>
+              Contributor to Scrapy (25k+ stars). Optimized technical documentation
+              for the JOBDIR persistence engine and internal state management.
+            </p>
+            <a href="https://github.com/scrapy/scrapy/pull/7226" class="btn-small" target="_blank">View Contribution</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="card-image">
+            <img src="./images/jamb-project.png" alt="JAMB Portal" />
+          </div>
+          <div class="card-content">
+            <h3>JAMB CBT Portal</h3>
+            <p>
+              A full-featured CBT system built with Python and MySQL. Features
+              student registration, randomized questions, and result processing.
+            </p>
+            <a href="https://github.com/Haygeejr01/Jamb_Reg-portal-Examination" class="btn-small" target="_blank">View
+              Code</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="card-image">
+            <img src="./images/bank-project.png" alt="QuantBank App" />
+          </div>
+          <div class="card-content">
+            <h3>QuantBank App</h3>
+            <p>
+              A secure banking simulation built with Python. Handles multi-user
+              accounts, transaction logic, and secure database management.
+            </p>
+            <a href="https://github.com/Haygeejr01/QuantBank" class="btn-small" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-title-container">
+      <h1 class="bg-text">CONTACT</h1>
+      <h2 class="fg-text">Get in Touch</h2>
+    </div>
+
+    <div class="contact-me">
+      <div class="contact-text">
+        <div class="contact-add">
+          <h2>ADDRESS</h2>
+          <h3>
+            Ibadan, <br />
+            Oyo State, <br />
+            Nigeria
+          </h3>
+          <br />
+          <p><i class="fa-brands fa-whatsapp"></i> (+234) 9065183017</p>
+          <br />
+          <p><i class="fa-solid fa-phone"></i> (+234) 7034752332</p>
+          <br />
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            simbamae7@gmail.com
+          </p>
+          <br />
+          <div class="social-links">
+            <h3>FOLLOW ME</h3>
+            <a href="https://github.com/Haygeejr01" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://x.com/Quantum__dev" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="https://instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:simbamae7@gmail.com" target="_blank">
+              <i class="fa-brands fa-google"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>SEND US A NOTE</h2>
+        <form action="">
+          <input type="text" placeholder="    Name" required />
+
+          <input type="text" placeholder="    Email" required />
+          <br /><br />
+          <input type="text" placeholder="    Tell me more about your needs" class="message-box" />
+          <br /><br />
+          <button type="button"><a href="">Send Message</a></button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="copyright">
+        <p>
+          Copyright &copy; 2025 <a href="">Quantum__dev</a>. All Rights
+          Reserved.
+        </p>
+      </div>
+      <div class="terms">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">| Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+  <a href="#home" class="back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: [
+        "Favor Adebayo",
+        "a Python Developer",
+        "an Open Source Contributor",
+        "an AI Enthusiast",
+        "a Data Scientist",
+      ],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
+
+    const hamburger = document.getElementById("hamburger-btn");
+    const navMenu = document.getElementById("nav-menu");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
       });
+    });
 
-      const hamburger = document.getElementById("hamburger-btn");
-      const navMenu = document.getElementById("nav-menu");
-      const navLinks = document.querySelectorAll(".nav-link");
+    const navbar = document.getElementById("navbar");
+    const sections = document.querySelectorAll("section");
 
-      hamburger.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
-      });
+    window.onscroll = () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
 
-      navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          navMenu.classList.remove("active");
-        });
-      });
+      let current = "";
 
-      const navbar = document.getElementById("navbar");
-      const sections = document.querySelectorAll("section");
-
-      window.onscroll = () => {
-        if (window.scrollY > 50) {
-          navbar.classList.add("scrolled");
-        } else {
-          navbar.classList.remove("scrolled");
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= sectionTop - 150) {
+          current = section.getAttribute("id");
         }
+      });
 
-        let current = "";
+      navLinks.forEach((li) => {
+        li.classList.remove("active");
+        if (li.getAttribute("href").includes(current)) {
+          li.classList.add("active");
+        }
+      });
+    };
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+        navMenu.classList.remove("active");
+      }
+    });
+  </script>
+</body>
 
-        sections.forEach((section) => {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.clientHeight;
-          if (scrollY >= sectionTop - 150) {
-            current = section.getAttribute("id");
-          }
-        });
-
-        navLinks.forEach((li) => {
-          li.classList.remove("active");
-          if (li.getAttribute("href").includes(current)) {
-            li.classList.add("active");
-          }
-        });
-      };
-    </script>
-  </body>
 </html>
